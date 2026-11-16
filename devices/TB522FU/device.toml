@@ -2,12 +2,12 @@
 
 model = "TB522FU"
 # Codename that may appear instead of the model name over ADB/EDL.
-codename = "mojito"
+codename = "TB522FU"
 # true: DeviceInfo can be dumped. This runs the backup, TWRP and restore flow, so [firmware], [installed], [twrp] and [country] are required.
 deviceinfo_read = true
 # true: DeviceInfo can be written (firmware flashing and DeviceInfo editing). Requires deviceinfo.toml.
 # Dump only until its writes are validated.
-deviceinfo_write = false
+deviceinfo_write = true
 
 # Official firmware folder check.
 [firmware]
